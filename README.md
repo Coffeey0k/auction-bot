@@ -48,3 +48,14 @@ auction_bot/
 ```bash
 git clone https://github.com/your-username/auction_bot.git
 cd auction_bot
+```
+### 2. виртуальное окружение
+
+python -m venv venv
+source venv/bin/activate      # Linux / macOS
+venv\Scripts\activate         # Windows
+
+### 3. установка зависимостей
+
+pip install -r requirements.txt
+
