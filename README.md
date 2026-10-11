@@ -37,7 +37,7 @@ auction_bot/
 - Python **3.10+**
 - Telegram-бот, созданный в [@BotFather](https://t.me/BotFather)
 - Включённые **Payments** в BotFather
-- ID заказчика (узнать через [@userinfobot](https://t.me/userinfobot))
+- ID заказчика
 
 ---
 
@@ -50,12 +50,12 @@ git clone https://github.com/your-username/auction_bot.git
 cd auction_bot
 ```
 ### 2. виртуальное окружение
-
+```
 python -m venv venv
 source venv/bin/activate      # Linux / macOS
 venv\Scripts\activate         # Windows
-
+```
 ### 3. установка зависимостей
-
+```
 pip install -r requirements.txt
-
+```
